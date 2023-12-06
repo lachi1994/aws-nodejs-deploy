@@ -12,7 +12,7 @@ app.get('/api/get_user_details',(req,res) => {
             name:"laxmi",
             hobby:searching,
             contact:12254
-        }
+        },env:process.env.NAME
     })
 });
 
